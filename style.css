@@ -12,10 +12,24 @@ body {
   margin: 0;
 }
 
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #dcffd95d;
   padding: 20px 40px;
   margin-bottom: 60px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+nav {
+  font-size: 18px;
 }
 
 .post-header {
@@ -29,6 +43,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -52,6 +67,8 @@ h2 {
 h3 {
   font-size: 30px;
   border-top: 5px solid rgba(4, 126, 132, 0.949);
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -140,6 +157,12 @@ a:active {
   background-color: yellow;
   font-style: italic;
 }
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
 /* LVHA */
 
 /* resolving conflicts */
@@ -159,7 +182,3 @@ a:active {
 footer p {
   color: green;
 } */
-
-nav {
-  font-size: 18px;
-}
